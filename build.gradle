@@ -2,13 +2,11 @@ apply plugin: 'android'
 
 dependencies {
     compile fileTree(dir: 'libs', include: '*.jar')
-    compile project(':android-maps-extensions-1.2:android-maps-extensions')
-    compile project(':LibTrello')
-    compile project(':android-LibCommon')
+    compile project(':google_play_services:libproject:google-play-services_lib:google-play-services_lib')
 }
 
 android {
-    compileSdkVersion 17
+    compileSdkVersion 18
     buildToolsVersion "18.0.1"
 
     sourceSets {
